@@ -1,0 +1,94 @@
+  html,body
+  {
+    --color-1: #1c679e;
+    --color-2: #6dbf41;
+    --color-3: #4e9ace;
+    --color-4: #dddddd;
+    --color-5: #090909;
+    --color-6: #ffffff;
+    --body-font: "ABeeZee";
+    --title-font: "Fredoka One";
+    background-color: var(--color-3);
+    user-select: text;
+    -webkit-user-select: text;
+    font-family: var(--body-font);
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+  }
+
+#no-script-page{
+  background-color: var(--color-3);
+  font-family: var(--body-font);
+  font-size: 1.4em;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#no-script-logo{
+  width: 100%;
+  background-color: #fff;
+}
+
+#no-script-title{
+  font-size: 2em;
+  margin: auto;
+  position: absolute;
+  top: 20px;
+  left: 300px;
+  width: 100%;
+  font-family: var(--title-font);
+  color: var(--color-1);
+  top: 20px;
+}
+
+#no-script-warning{
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+#no-script-home{
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 1.5em;
+  width: 90%;
+  padding: 4%;
+  color: var(--color-6);
+  background-color: var(--color-1);
+}
+
+#no-script-formdownloads{
+  margin: auto;
+  text-align: left;
+  margin-bottom: 40px;
+  font-size: 1.3em;
+  width: 90%;
+  padding: 4%;
+  color: var(--color-1);
+  background-color: var(--color-6);
+}
+
+#no-script-locations{
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 1.3em;
+  width: 90%;
+  padding: 4%;
+  color: var(--color-6);
+  background-color: var(--color-1);
+}
+
+#no-script-locations-title{
+  font-size: 1.6em;
+  margin: auto;
+  text-align: center;
+  font-family: var(--title-font);
+}
+
+.no-script-locations-text{
+  margin-left: 20px;
+}
